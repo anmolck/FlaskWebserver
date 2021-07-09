@@ -1,11 +1,15 @@
 # webserver
-Devops Git Lab - 01
-To run this websever 
+This is a simple web server based on Flask 
 
-#install-
-python3 , Flask 
+# To run this websever  locally
+Install python3 on local host or virual env
+`pip install -r requirements.txt`
+# To run the app
+`python3 app2.py`
 
+# Connect to webserver 
+`http://0.0.0.0:4080`
 
-# example command
-python3 app.py 
+# Build docker image 
+`docker  build -t flaskapp  .`
 
